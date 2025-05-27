@@ -1,0 +1,22 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #ffe6f0;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+}
+
+.movie-poster {
+  width: 280px;        
+  height: 350px;       
+  object-fit: cover;  
+  border-radius: 10px; / 
+}
