@@ -1,0 +1,66 @@
+/* src/pages/Tickets.css */
+
+.tickets-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tickets-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.tickets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ticket-card {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border: 2px dashed #c0c0c0;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.ticket-card:hover {
+  transform: scale(1.02);
+}
+
+.ticket-left, .ticket-right {
+  width: 48%;
+}
+
+.ticket-left h3 {
+  margin-top: 0;
+  color: #e91e63;
+}
+
+.ticket-card::before,
+.ticket-card::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.ticket-card::before {
+  left: -13px;
+}
+
+.ticket-card::after {
+  right: -13px;
+}

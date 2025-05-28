@@ -4,7 +4,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   background: #ffe6f0;
 }
 
@@ -19,6 +19,7 @@ h2 {
   text-align: left;
 }
 input {
+  margin: 20px;
   padding: 10px;
   margin-bottom: 20px;
   width: 100%;

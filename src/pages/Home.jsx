@@ -13,7 +13,6 @@ const Home = () => {
     <div className="home">
         <div className="hstyle">
       <h1>🎬 Movie List </h1>
-       <h2> Miyka cinema </h2>
        </div>
       <input 
         type="text"
